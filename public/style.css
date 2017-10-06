@@ -1,0 +1,84 @@
+body{
+  background: rgb(245,245,245);
+  color: black;
+  font-size: 25px;
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+}
+h1{
+  font-family: 'Roboto Mono', monospace;
+  color: red;
+  font-weight: lighter;
+  font-size: 10px;
+}
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  color: #DB2B39;
+  font-weight: bolder;
+  font-size: 45px;
+  text-align: center;
+  }
+
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: #FE64A3;
+}
+#banner{
+  text-align: center;
+  background-image: url(images/fond.jpg);
+  background-size: cover;
+  padding: 150px;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  margin: 30px;
+}
+
+#banner a {
+  padding: 20px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: bolder;
+  font-size : 20px;
+}
+#banner h1 {
+  color: white;
+  font-size: 50px;
+}
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-family: 'Inconsolata', monospace;
+  font-weight: lighter;
+}
+#footer{
+  padding: 30px;
+  margin: 30px;
+  background: url(images/globe.jpeg);
+  background-size: cover;
+  font-family: Courier;
+  font-weight: bolder;
+  color: white;
+  }
+
+.card{
+  text-align: center;
+  padding: 70px;
+  font-weight: lighter;
+}
+
+#footer a {
+  color : white;
+  font-size: 30px;
+  padding: 50px;
+}
+#footer a:hover {
+  color :yellow;
+  font-size: 50px;
+}
+
+#container{
+  margin: 30px;
+}
